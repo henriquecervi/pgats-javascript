@@ -13,12 +13,32 @@ Classificador de porte automático
     Extra: Transforme a lógica em uma função (da forma que conseguir).
 */
 
-const nome = 'Marley'
-const peso = 0
+// const nome = 'Marley'
 
-const classificadorPorteAutomatico = (peso) => {
+
+// function classificadorPorteAutomatico (nome, peso) {
+//     const porte = peso <= 10 ? 'pequeno' : 'médio'
+
+//     console.log(`Nome do dog: ${nome}`)
+//     console.log(`Peso: ${peso}`)
+//     console.log(`Porte: ${porte}`)
+// }
+
+// classificadorPorteAutomatico(nome, 10)
+
+
+
+// outra forma
+
+function classificarPorPorte(nome, peso) {
     const porte = peso <= 10 ? 'pequeno' : 'médio'
-    return porte 
+
+    console.log(`-----------`)
+    console.log(`Nome do dog: ${nome}`)
+    console.log(`Peso: ${peso}`)
+    console.log(`Porte: ${porte}`)
+    console.log(`-----------`)
 }
 
-console.log(`Nome do dog: ${nome}, peso: ${peso} e sua classificação: ${classificadorPorteAutomatico(20)}`)
+classificarPorPorte('Marley', 10)
+classificarPorPorte('Rex', 20)
