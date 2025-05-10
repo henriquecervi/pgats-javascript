@@ -1,7 +1,7 @@
-function exibirNomeFormatado(nome) {
-    return nome.toUpperCase()
+function exibirNomeFormatado (nome) {
+  return nome.toUpperCase()
 }
 
 export {
-    exibirNomeFormatado
+  exibirNomeFormatado
 }

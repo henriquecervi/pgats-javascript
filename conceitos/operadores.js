@@ -25,10 +25,9 @@
         // Exemplo: 10 % 3 = 1 (resto da divisão de 10 por 3 é 1)
         // Exemplo: 10 / 3 = 3.3333333333333335 (divisão de 10 por 3 é 3.3333333333333335)
 
-
                  ternário
 
-const porte = pesoDoDog <= 10 ? 'pequeno' : 'médio' 
+const porte = pesoDoDog <= 10 ? 'pequeno' : 'médio'
 
 const pesoDoDogOperadorTernario = 21
 const porte = pesoDoDogOperadorTernario <= 10 // se if

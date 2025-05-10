@@ -11,18 +11,16 @@
 const nomeDog = 'Marley'
 const estoqueAtualRacao = 25000 // em GRAMAS
 
-function calcularConsumoDeRacao(nome, peso, estoqueAtualRacao) {
-    const gramasPorDia = peso * 30
-    const duracaoEstoque = Math.floor(estoqueAtualRacao / gramasPorDia)
+function calcularConsumoDeRacao (nome, peso, estoqueAtualRacao) {
+  const gramasPorDia = peso * 30
+  const duracaoEstoque = Math.floor(estoqueAtualRacao / gramasPorDia)
 
-console.log('---------------------------')
-console.log(`Nome do dog:  ${nomeDog}`)
-console.log(`Peso do dog:  ${peso} KG`)
-console.log(`Ração recomendada:  ${gramasPorDia} gramas por dia`)
-console.log(`Estoque atual:  ${estoqueAtualRacao} gramas`)
-console.log(`Estoque atual vai durar:  ${duracaoEstoque} dias`)
-
-
+  console.log('---------------------------')
+  console.log(`Nome do dog:  ${nomeDog}`)
+  console.log(`Peso do dog:  ${peso} KG`)
+  console.log(`Ração recomendada:  ${gramasPorDia} gramas por dia`)
+  console.log(`Estoque atual:  ${estoqueAtualRacao} gramas`)
+  console.log(`Estoque atual vai durar:  ${duracaoEstoque} dias`)
 }
 
 calcularConsumoDeRacao(nomeDog, 20, 25000)

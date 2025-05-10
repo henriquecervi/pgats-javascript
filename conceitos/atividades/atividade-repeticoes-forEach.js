@@ -12,14 +12,13 @@
 
 const brinquedos = ['Bola ⚽', 'Osso 🦴', 'Corda 🪕', 'Sino 🔔']
 
-function entregarBrinquedos(brinquedo) {
-    brinquedos.forEach(brinquedo => {
-        console.log(`Entregando o brinquedo: ${brinquedo}`)
-    })
+function entregarBrinquedos (brinquedo) {
+  brinquedos.forEach(brinquedo => {
+    console.log(`Entregando o brinquedo: ${brinquedo}`)
+  })
 }
 
 entregarBrinquedos(brinquedos)
-
 
 // const exibirListaBrinquedos = (brinquedo) => {
 //     const listaDeBrinquedos = ['Bola','Raquete','Skate','Boneca','Carrinho']

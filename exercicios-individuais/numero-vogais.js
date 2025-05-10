@@ -11,14 +11,14 @@ const texto = 'Quantas Vogais temos aquI aaaaa@@@@?áAAAA'
 
 const textoFormatado = texto.slice(0, texto.length).toLowerCase()
 
-function contarVogais(texto) {
-    let contador = 0
-    for (let i = 0; i < texto.length; i++) {
-        if (vogais.includes(texto[i])) {
-            contador++
-        }
+function contarVogais (texto) {
+  let contador = 0
+  for (let i = 0; i < texto.length; i++) {
+    if (vogais.includes(texto[i])) {
+      contador++
     }
-    return contador
+  }
+  return contador
 }
 
 console.log(contarVogais(textoFormatado))

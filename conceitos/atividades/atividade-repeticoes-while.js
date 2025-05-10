@@ -6,7 +6,7 @@
 
     Use a estrutura de repetição while.
 
-    Exbiba: 
+    Exbiba:
     - Qual o número da volta atual;
     - Quando o Pet estiver satisfeito;
 
@@ -15,15 +15,15 @@
 */
 
 function verificarSeOPetCansou () {
-    const voltasParaOPetFicarSatisfeito = 5
-    let quantidadeVoltasAtual = 1
+  const voltasParaOPetFicarSatisfeito = 5
+  let quantidadeVoltasAtual = 1
 
-    while (quantidadeVoltasAtual <= voltasParaOPetFicarSatisfeito) {
-        console.log(`Pet já fez ${quantidadeVoltasAtual} volta(s) na quadra.`)
-        quantidadeVoltasAtual++
-    }
-    
-    console.log(`O Pet já passeou o suficiente!`)
+  while (quantidadeVoltasAtual <= voltasParaOPetFicarSatisfeito) {
+    console.log(`Pet já fez ${quantidadeVoltasAtual} volta(s) na quadra.`)
+    quantidadeVoltasAtual++
+  }
+
+  console.log('O Pet já passeou o suficiente!')
 }
 
 verificarSeOPetCansou()

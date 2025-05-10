@@ -1,4 +1,4 @@
-/* 
+/*
     Distribuidor de petiscos
 
     Você tem uma lista de cães: Pantera, Luna e Thor

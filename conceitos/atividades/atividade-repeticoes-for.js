@@ -13,12 +13,11 @@
 
 */
 
-function darPetisco(petiscosEntregues) {
-
-    for (let quantidadeDePetiscos = 1; quantidadeDePetiscos <= petiscosEntregues; quantidadeDePetiscos++) {
-        console.log(`Dando petisco de nº ${quantidadeDePetiscos}`)
-    }
-    console.log(`O Pet já comeu todos os petiscos!`)
+function darPetisco (petiscosEntregues) {
+  for (let quantidadeDePetiscos = 1; quantidadeDePetiscos <= petiscosEntregues; quantidadeDePetiscos++) {
+    console.log(`Dando petisco de nº ${quantidadeDePetiscos}`)
+  }
+  console.log('O Pet já comeu todos os petiscos!')
 }
 
 darPetisco(3)
