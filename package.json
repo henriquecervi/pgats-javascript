@@ -1,0 +1,21 @@
+{
+  "name": "pgats-javascript",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <h1 align=\"center\">📘 JavaScript Practice Repository</h1>\r </p>",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquecervi/pgats-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC", 
+  "bugs": {
+    "url": "https://github.com/henriquecervi/pgats-javascript/issues"
+  },
+  "homepage": "https://github.com/henriquecervi/pgats-javascript#readme"
+}
