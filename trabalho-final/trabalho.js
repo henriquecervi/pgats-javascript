@@ -1,19 +1,17 @@
-
-
-function geradorDeTagsDeIdentificacao(nomeTag) {
+function geradorDeTagsDeIdentificacao (nomeTag) {
     return nomeTag.toUpperCase()
 }
 
-function verificarSePodeSerAdotado(idade, porte) {
+function verificarSePodeSerAdotado (idade, porte) {
     return porte === 'M' || idade === 1
         ? true : false
 }
 
-function calcularConsumoDeRacao(nome, idade, peso) {
+function calcularConsumoDeRacao (nome, idade, peso) {
     return idade * peso * 300
 }
 
-function decidirTipoDeAtividadePorPorte(porte) {
+function decidirTipoDeAtividadePorPorte (porte) {
     if (porte == 'pequeno') {
         return 'brincar dentro de casa'
     } else if (porte == 'médio') {
