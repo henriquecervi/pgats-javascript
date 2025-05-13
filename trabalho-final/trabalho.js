@@ -1,9 +1,18 @@
+import { 
+    nomePet, 
+    portePet, 
+    portePequeno, 
+    porteMedio, 
+    porteGrande, 
+    idadePet 
+} from './trabalho-final-dados.js'
+
 function geradorDeTagsDeIdentificacao (nomeTag) {
     return nomeTag.toUpperCase()
 }
 
 function verificarSePodeSerAdotado (idade, porte) {
-    return porte === 'M' || idade === 1
+    return porte === portePet && idade === idadePet
         ? true : false
 }
 
@@ -12,11 +21,11 @@ function calcularConsumoDeRacao (nome, idade, peso) {
 }
 
 function decidirTipoDeAtividadePorPorte (porte) {
-    if (porte == 'pequeno') {
+    if (porte == portePequeno) {
         return 'brincar dentro de casa'
-    } else if (porte == 'médio') {
+    } else if (porte == porteMedio) {
         return 'caminhada no quarteirão'
-    } else if (porte == 'grande') {
+    } else if (porte == porteGrande) {
         return 'correr no parque'
     } else {
         return console.log('Porte inválido')
@@ -24,7 +33,7 @@ function decidirTipoDeAtividadePorPorte (porte) {
 }
 
 async function buscarDadoAsync () {
-    return 'Pipoca'
+    return nomePet
 }
 
 export {
